@@ -1,0 +1,136 @@
+body {
+  background-color: darkred;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0 15% 0 15%;
+  box-sizing: border-box;
+}
+header {
+  height: 90px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(ZeForge_Logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.nav1 {
+  background-color: gray;
+  width: 100%;
+  min-width: 680px;
+  height: 40px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#navigacija1 li{
+  display: inline-block;
+  line-height: 40px;
+  padding: 0px 10px 0px 10px;
+  color: white;
+}
+.current {
+  border-top: 0px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: white;
+  border-style: solid;
+}
+.about-sekcija {
+  position: relative;
+  background-color: #89A984;
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+}
+.avion {
+  box-sizing: border-box;
+  width: 250px;
+  height: 100%;
+  background-image: url(paper-plane-white.png);
+  background-size: 130px;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  box-sizing: border-box;
+}
+.about {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  line-height: 15px;
+  height: 200px;
+  background-color: #89A984;
+  padding: 10px;
+  color: white;
+  margin-left: 250px;
+  margin-right: 0%;
+  align-items: end;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 430px;
+}
+.about h2 {
+  margin: auto auto 15px 20px;
+}
+.about p {
+  margin: 0px 20px 10px 20px;
+}
+.drugi-dio {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+}
+.drugi-dio-lijevo {
+  position:absolute;
+  background-color: #96AFAC;
+  width: 250px;
+  min-height: 450px;
+}
+#navigacija2 {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0px 10px 0px 10px;
+  margin-left: 20px;
+  color: white;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+#navigacija2 li {
+  border-bottom: 1px solid;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.drugi-dio-desno {
+  background-color: #DBD8C5;
+  min-width: 430px;
+  height: 450px;
+  color: #575551;
+  padding-left: 30px;
+  padding-right: 30px;
+  right: 0px;
+  top: 0px;
+  margin-top: 20px;
+  margin-left: 250px;
+  margin-right: 0%;
+  position: relative;
+  box-sizing: border-box;
+  line-height: 15px;
+  padding-top: 6px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: darkred;
+}
+a:active {
+  color: lightred;
+}
+
+
+
+
